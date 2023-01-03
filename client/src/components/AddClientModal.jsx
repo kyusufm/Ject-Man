@@ -35,11 +35,9 @@ export default function AddClientModal() {
     <>
 <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addClientModal">
   <div className="d-flex align-items-center">
-    <FaUser className='icon' />
+    <FaUser className='icon' />Add Client
   </div>
-  <div>Add Client</div>
 </button>
-
 <div className="modal fade" id="addClientModal" aria-labelledby="addClientModalLabel" aria-hidden="true">
   <div className="modal-dialog">
     <div className="modal-content">
